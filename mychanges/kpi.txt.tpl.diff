@@ -1,0 +1,14 @@
+diff --git a/templates/kobo-deployments/envfiles/kpi.txt.tpl b/templates/kobo-deployments/envfiles/kpi.txt.tpl
+index 3901595..03845c5 100644
+--- a/templates/kobo-deployments/envfiles/kpi.txt.tpl
++++ b/templates/kobo-deployments/envfiles/kpi.txt.tpl
+@@ -1,5 +1,7 @@
+-KPI_DJANGO_DEBUG=${DEBUG}
+-TEMPLATE_DEBUG=${DEBUG}
++#KPI_DJANGO_DEBUG=${DEBUG}
++#TEMPLATE_DEBUG=${DEBUG}
++KPI_DJANGO_DEBUG=True
++TEMPLATE_DEBUG=True
+ ${USE_X_FORWARDED_HOST}USE_X_FORWARDED_HOST=True
+ 
+ ENKETO_VERSION=Express

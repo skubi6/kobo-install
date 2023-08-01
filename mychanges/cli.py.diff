@@ -1,0 +1,14 @@
+diff --git a/helpers/cli.py b/helpers/cli.py
+index 0fe3856..7b5c84d 100644
+--- a/helpers/cli.py
++++ b/helpers/cli.py
+@@ -16,7 +16,8 @@ class CLI(object):
+ 
+     NO_COLOR = "\033[0m"
+     COLOR_ERROR = "\033[91m"
+-    COLOR_SUCCESS = "\033[92m"
++    #COLOR_SUCCESS = "\033[92m"
++    COLOR_SUCCESS = NO_COLOR
+     COLOR_INFO = "\033[94m"
+     COLOR_WARNING = "\033[95m"
+ 

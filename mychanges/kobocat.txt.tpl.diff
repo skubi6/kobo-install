@@ -1,0 +1,14 @@
+diff --git a/templates/kobo-deployments/envfiles/kobocat.txt.tpl b/templates/kobo-deployments/envfiles/kobocat.txt.tpl
+index 3951e29..ded3cdb 100644
+--- a/templates/kobo-deployments/envfiles/kobocat.txt.tpl
++++ b/templates/kobo-deployments/envfiles/kobocat.txt.tpl
+@@ -1,5 +1,7 @@
+-KOBOCAT_DJANGO_DEBUG=${DEBUG}
+-TEMPLATE_DEBUG=${DEBUG}
++#KOBOCAT_DJANGO_DEBUG=${DEBUG}
++#TEMPLATE_DEBUG=${DEBUG}
++KOBOCAT_DJANGO_DEBUG=True
++TEMPLATE_DEBUG=True
+ ${USE_X_FORWARDED_HOST}USE_X_FORWARDED_HOST=True
+ 
+ DJANGO_SETTINGS_MODULE=onadata.settings.kc_environ
